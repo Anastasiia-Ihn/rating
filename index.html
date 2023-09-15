@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" class="form form-margin">
+      <div class="blok-simple-rating">
+        <h2>Simple rating</h2>
+        <div class="simple-rating">
+          <div class="simple-rating-items">
+            <input
+              id="simple-rating-5"
+              type="radio"
+              class="simple-rating-item"
+              name="simple-rating"
+              value="5"
+            />
+            <label for="simple-rating-5" class="simple-rating-label"></label>
+
+            <input
+              id="simple-rating-4"
+              type="radio"
+              class="simple-rating-item"
+              name="simple-rating"
+              value="4"
+            />
+            <label for="simple-rating-4" class="simple-rating-label"></label>
+            <input
+              id="simple-rating-3"
+              type="radio"
+              class="simple-rating-item"
+              name="simple-rating"
+              value="3"
+            />
+            <label for="simple-rating-3" class="simple-rating-label"></label>
+            <input
+              id="simple-rating-2"
+              type="radio"
+              class="simple-rating-item"
+              name="simple-rating"
+              value="2"
+            />
+            <label for="simple-rating-2" class="simple-rating-label"></label>
+            <input
+              id="simple-rating-1"
+              type="radio"
+              class="simple-rating-item"
+              name="simple-rating"
+              value="1"
+            />
+            <label for="simple-rating-1" class="simple-rating-label"></label>
+          </div>
+        </div>
+      </div>
+      <div class="blok-current-rating">
+        <h2>Current rating</h2>
+        <div class="rating">
+          <div class="rating-body">
+            <div class="rating-active"></div>
+            <div class="rating-items">
+              <input
+                class="rating-item"
+                type="radio"
+                name="rating"
+                value="rating"
+              />
+              <input
+                class="rating-item"
+                type="radio"
+                name="rating"
+                value="rating"
+              />
+              <input
+                class="rating-item"
+                type="radio"
+                name="rating"
+                value="rating"
+              />
+              <input
+                class="rating-item"
+                type="radio"
+                name="rating"
+                value="rating"
+              />
+              <input
+                class="rating-item"
+                type="radio"
+                name="rating"
+                value="rating"
+              />
+            </div>
+          </div>
+          <div class="rating-value">0</div>
+        </div>
+      </div>
+      <button type="submit" class="btn-send-stars">Send</button>
+    </form>
+    <div class="container">
+      <!-- <div class="heart-icon"> -->
+      <svg class="icon-heart-svg" width="22" height="22">
+        <use href=".//icon.svg#icon-heart"></use>
+      </svg>
+      <input
+        id="heart"
+        type="checkbox"
+        class="heart-icon-elem"
+        name="heart-icon"
+        value="on"
+      />
+      <label for="heart" aria-hidden="true" class="heart-icon-action"></label>
+      <!-- </div> -->
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
